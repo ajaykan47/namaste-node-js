@@ -1,18 +1,18 @@
-# namaste-node-js
+# Namaste-node-js
 # Node (REPL- Read,Evaluate,Print, Loop)
     Node JS is the Javascript Runtime environment.
 # Modules
   Modules protected their variables and function from leaking.
 
   Node.js modules are essential building blocks for organizing and reusing code. They allow you to split your application into smaller, manageable parts.
-# how to use require
+# How to use require
   require()
 
-# there is two types of modules pattern
+# There is two types of modules pattern
 1. Common JS
 2. ES modules
 
-  # common js module (cjs)   ||   ES Modules(mjs/ESM)
+  # Common js module (cjs)   ||   ES Modules(mjs/ESM)
     --> modules.exports      || import export  
         require()            ||  by default used in react
                              ||  angular
@@ -36,4 +36,13 @@ Non strict mode              ||   Asynch, Strict Mode
 
   })();`
 
+  # How are variables & funtion private in different modules?
+   ==> Becuase of IIFE
+   `IIFE & require(statement) 
+  (warpping code)`
+
+ ==> `In Node.js, modules are implemented using the CommonJS module system. Variables and functions defined in a module are private to that module by default, unless they are explicitly exported using the module.exports object.` 
+
+  # How do you get access to modules.export?
+  => Node js paasses (modules) as a parametor to the IIFE.
 
