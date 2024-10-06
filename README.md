@@ -25,6 +25,15 @@ Non strict mode              ||   Asynch, Strict Mode
   Modules.export is empty object.
   ex: modules.export.x = x;
 
- # Nested Modules 
+ # When you call require()
+ Ex: ` require("./path")`
 
-# let me show you how we do
+  `All the code of the modules is wrapped inside a function()IIFE`
+  `IIFE - Immediately Invoked Funtion  Expression`
+  
+  `function() {
+      // all code of the modules runs inside this funtion
+
+  })();`
+
+
