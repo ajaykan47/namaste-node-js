@@ -20,4 +20,11 @@
     Synchrounus              ||  Newer way
 Non strict mode              ||   Asynch, Strict Mode
 
+
+# What is Modules.export?
+  Modules.export is empty object.
+  ex: modules.export.x = x;
+
+ # Nested Modules 
+
 # let me show you how we do
