@@ -36,4 +36,13 @@ Non strict mode              ||   Asynch, Strict Mode
 
   })();`
 
+  # How are variables & funtion private in different modules?
+   ==> Becuase of IIFE
+   `IIFE & require(statement) 
+  (warpping code)`
+
+ ==> `In Node.js, modules are implemented using the CommonJS module system. Variables and functions defined in a module are private to that module by default, unless they are explicitly exported using the module.exports object.` 
+
+  # How do you get access to modules.export?
+  => Node js paasses (modules) as a parametor to the IIFE.
 
