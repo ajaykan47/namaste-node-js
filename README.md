@@ -12,10 +12,12 @@
 1. Common JS
 2. ES modules
 
-  # common js module (cjs)   ||   ES Modules(mjs)
-    --> modules.exports      ||   
-        require()            ||  
-
-
+  # common js module (cjs)   ||   ES Modules(mjs/ESM)
+    --> modules.exports      || import export  
+        require()            ||  by default used in react
+                             ||  angular
+    Older way
+    Synchrounus              ||  Newer way
+Non strict mode              ||   Asynch, Strict Mode
 
 # let me show you how we do
