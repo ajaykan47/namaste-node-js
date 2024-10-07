@@ -45,4 +45,21 @@ Non strict mode              ||   Asynch, Strict Mode
 
   # How do you get access to modules.export?
   => Node js paasses (modules) as a parametor to the IIFE.
+# Five step mechanism of require?
+`require("path")`
+
+First Step => Resolving the modules
+            -->./localpath
+            -->.json
+            -->node:module
+Second Step => Loading the modules
+            -->file contenet is loaded
+            according to file type.
+Third Step ==> Wraps inside IIFE
+Fourth Step==>Code Ecaluation
+            modules.export (happend here)
+Fifth Step===>Caching (Caching is a technique that stores data in a cache to improve the performance and scalability of a system)
+
+Here modules is cached
+
 
